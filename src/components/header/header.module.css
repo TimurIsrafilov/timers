@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 338px;
+    height: 35px;
+    margin: 15px 0 0 0;
+}
+
+.header__button_add {
+    background-image: url(../../images/plus.svg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    align-self: center;
+}
+
+.header__button_edit {
+    font-family: 'ALS-gorizont', 'Arial', sans-serif;
+    font-size: 14px;
+    color: rgba(41, 163, 84, 1);
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.header__title{
+    font-family: 'ALS-gorizont', 'Arial', sans-serif;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin: 14px 0 12px 0;
+    padding: 0;
+}

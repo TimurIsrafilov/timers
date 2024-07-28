@@ -1,0 +1,74 @@
+.run {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.run__progress_timer_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 257px;
+    width: 257px;
+    position: relative;
+}
+
+.run__progress {
+    position: absolute;
+    height: 256px;
+    width: 256px;
+}
+
+.run__progress_round {
+    stroke: rgba(41, 163, 84, 1);
+    stroke-width: 6px;
+    cx: 128;
+    cy: 128;
+    r: 125;
+    fill: transparent;
+    transform-origin: center;
+    transform: rotate(-90deg)
+}
+
+.run__timer {
+    font-family: 'ALS-gorizont', 'Arial', sans-serif;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.run__buttons_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 343px;
+}
+
+.run__button_start_stop {
+    background-color: rgba(249, 137, 28, 1);
+    border-radius: 32px;
+    border: none;
+    height: 43px;
+    width: 160px;
+    font-family: 'ALS-gorizont', 'Arial', sans-serif;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    margin: 32px 0 0 0;
+    padding: 0;
+}
+
+.run__button_reject {
+    background-color: rgba(117, 118, 119, 1);
+    border-radius: 32px;
+    border: none;
+    height: 43px;
+    width: 160px;
+    font-family: 'ALS-gorizont', 'Arial', sans-serif;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    margin: 32px 0 0 0;
+    padding: 0;
+}

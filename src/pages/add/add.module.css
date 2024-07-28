@@ -1,0 +1,40 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__input_container {
+    display: flex;
+    align-items: center;
+}
+
+.form__input {
+    height: 165px;
+    width: 100px;
+    background-color: black;
+    border: none;
+    font-family: 'ALS-gorizont', 'Arial', sans-serif;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.form__input_title {
+    font-family: 'ALS-gorizont', 'Arial', sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.form__button {
+    background-color: rgba(41, 163, 84, 1);
+    border-radius: 32px;
+    border: none;
+    height: 54px;
+    width: 196px;
+    font-family: 'ALS-gorizont', 'Arial', sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin: 48px 0 0 0;
+    padding: 0;
+}

@@ -1,0 +1,8 @@
+@font-face {
+      font-family: 'ALS-gorizont';
+      font-style: normal;
+      font-weight: 800;
+      font-display: swap;
+      src: url(../fonts/ALS-gorizont.woff.woff2) format('woff2'),
+            url(../fonts/ALS-gorizont.woff) format('woff');
+}
